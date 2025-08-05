@@ -1,0 +1,38 @@
+:root {
+  /* Colors */
+  --color-bg: #faf9f7;
+  --color-text: #2c2c2c;
+  --color-text-muted: #666;
+  --color-shadow: rgba(0,0,0,0.1);
+  
+  /* Typography */
+  --font-primary: 'Fira Code', monospace;
+  --font-header: 'Metamorphous', serif;
+  --font-size-nav: 1.5rem;
+  --font-size-h1-desktop: 3.5rem;
+  --font-size-h1-tablet: 2.5rem;
+  --font-size-h1-mobile: 2rem;
+  --letter-spacing-wide: 0.15em;
+  --letter-spacing-normal: 0.05em;
+  --letter-spacing-tight: 0.02em;
+  
+  /* Layout & Spacing */
+  --max-width-content: 600px;
+  --padding-main: 40px 20px;
+  --gap-nav: 1.5rem;
+  --margin-h1-bottom: 2rem;
+  
+  /* Breakpoints */
+  --bp-tablet: 768px;
+  --bp-mobile: 480px;
+  
+  /* Transitions & Timing */
+  --transition-hover: 0.3s ease;
+  --transition-glitch: 0.1s ease;
+  
+  /* Glitch Effects */
+  --glitch-intensity: 0.8;
+  --glitch-color-intensity: 2.0;
+  --glitch-transform-range: 1.9;
+  --glitch-opacity-drop: 0.3;
+}
