@@ -24,30 +24,18 @@ body {
 
 h1 {
   font-family: var(--font-header);
-  font-size: var(--font-size-h1-desktop);
-  font-weight: bold;
-  letter-spacing: var(--letter-spacing-wide);
+  font-size: var(--font-size-h1);
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: var(--letter-spacing-normal);
   margin-bottom: var(--margin-h1-bottom);
-  padding-right: var(--font-size-h1-tablet);
+  padding-right: var(--font-size-h1);
   font-variant: small-caps;
   text-shadow: 1px 1px 0px var(--color-shadow);
   text-align: left;
   width: 100%;
   max-width: var(--max-width-content);
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: var(--font-size-h1-tablet);
-    letter-spacing: var(--letter-spacing-normal);
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: var(--font-size-h1-mobile);
-    letter-spacing: var(--letter-spacing-tight);
-  }
 }
 
 h1 .letter {
@@ -80,7 +68,7 @@ h1 .letter {
   border-bottom: 1px solid transparent;
   transition: border-bottom var(--transition-hover);
   font-size: var(--font-size-nav);
-  letter-spacing: var(--letter-spacing-normal);
+  letter-spacing: var(--letter-spacing-tight);
 }
 
 .navigation a:hover {
